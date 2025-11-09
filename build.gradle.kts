@@ -4,3 +4,12 @@ plugins {
     alias(libs.plugins.kotlin.android) apply false
     alias(libs.plugins.kotlin.compose) apply false
 }
+
+subprojects {
+    plugins.withId("dev.atakanakin.detekt") {
+        dependencies {
+            "detektPlugins"(libs.detekt.formatting)
+            "detektPlugins"(libs.detekt.compose)
+        }
+    }
+}
