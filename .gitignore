@@ -1,0 +1,57 @@
+# Gradle
+.gradle/
+build/
+**/build/
+local.properties
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+captures/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Compose / Kotlin
+*.kotlin_module
+*.kotlin_metadata
+*.kotlin_builtins
+compose-metrics/
+compose-reports/
+*.preview-cache/
+
+# Native / External
+.externalNativeBuild/
+.cxx/
+
+# Cache / Temp
+.caches/
+*.log
+*.lock
+*.tmp
+*.bak
+
+# Lint / Reports
+lint/
+reports/
+outputs/
+test-results/
+
+# Keys / Secrets
+*.jks
+*.keystore
+key.properties
+*.env
+secrets.properties
+
+# Firebase / Config
+google-services.json
+GoogleService-Info.plist
+
+# VSCode
+.vscode/
