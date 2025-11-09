@@ -6,7 +6,8 @@ local.properties
 !gradle/wrapper/gradle-wrapper.jar
 
 # IDE
-.idea/
+.idea/*
+!.idea/fileTemplates
 *.iml
 *.ipr
 *.iws
