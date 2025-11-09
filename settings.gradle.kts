@@ -19,5 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
+includeBuild("build-logic")
 rootProject.name = "Common Showcase"
 include(":app")
