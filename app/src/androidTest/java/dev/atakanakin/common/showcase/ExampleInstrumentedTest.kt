@@ -1,3 +1,10 @@
+/*
+ * Copyright (c) 2025, Atakan Akın
+ *
+ * @author "Atakan Akın"
+ * @Link https://github.com/atakanakin
+ */
+ 
 package dev.atakanakin.common.showcase
 
 import androidx.test.platform.app.InstrumentationRegistry
