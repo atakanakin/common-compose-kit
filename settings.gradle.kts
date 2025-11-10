@@ -9,6 +9,13 @@ pluginManagement {
         }
         mavenCentral()
         gradlePluginPortal()
+        maven {
+            url = uri("https://maven.pkg.github.com/atakanakin/android-convention-plugin")
+            credentials {
+                username = System.getenv("GITHUB_ACTOR")
+                password = System.getenv("GITHUB_TOKEN")
+            }
+        }
     }
 }
 dependencyResolutionManagement {
@@ -19,6 +26,5 @@ dependencyResolutionManagement {
     }
 }
 
-includeBuild("build-logic")
 rootProject.name = "Common Showcase"
 include(":app")

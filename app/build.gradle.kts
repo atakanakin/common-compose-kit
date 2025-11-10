@@ -1,10 +1,8 @@
 plugins {
-    id("dev.atakanakin.android.application")
-    id("dev.atakanakin.android.application.flavors")
-    alias(libs.plugins.detekt)
-    id("dev.atakanakin.detekt")
-    alias(libs.plugins.spotless)
-    id("dev.atakanakin.spotless")
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.android.application.flavors)
+    alias(libs.plugins.detekt.convention)
+    alias(libs.plugins.spotless.convention)
 }
 
 android {
